@@ -56,3 +56,19 @@ html {
 .simon-button.blue {
   background-color: #2185D0;
 }
+
+div.simon-button.green:hover {
+  border: 5px solid green;
+}
+
+div.simon-button.red:hover {
+  border: 5px solid red;
+}
+
+div.simon-button.yellow:hover {
+  border: 5px solid gold;
+}
+
+div.simon-button.blue:hover {
+  border: 5px solid blue;
+}
