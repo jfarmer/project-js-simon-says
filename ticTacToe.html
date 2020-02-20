@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <title>Hello, world!</title>
+        <style>
+            body {
+                font-family: 'Comic Sans MS';
+            }
+
+            #title-header {
+                color: red;
+            }
+
+            #tic-tac-toe {
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+
+            #tic-tac-toe td {
+                border: 1px solid black;
+                padding: 75px;
+                height: 100px;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title-header">Here we are, Tic Tac Toe.</h1>
+
+        <table id="tic-tac-toe">
+            <tr>
+                <td id="cell-0-0" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-0-1" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-0-2" onclick="handleBoardClick(this);"> </td>
+            </tr>
+            <tr>
+                <td id="cell-1-0" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-1-1" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-1-2" onclick="handleBoardClick(this);"> </td>
+            </tr>
+            <tr>
+                <td id="cell-2-0" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-2-1" onclick="handleBoardClick(this);"> </td>
+                <td id="cell-2-2" onclick="handleBoardClick(this);"> </td>
+            </tr>
+        </table>
+    </body>
+</html>
