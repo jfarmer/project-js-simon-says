@@ -1,15 +1,20 @@
-$('.simon-button.green').on('click', function() {
+const greenButton = document.querySelector(".simon-button.green");
+const redButton = document.querySelector(".simon-button.red");
+const yellowButton = document.querySelector(".simon-button.yellow");
+const blueButton = document.querySelector(".simon-button.blue");
+
+greenButton.addEventListener('click', function () {
   alert('You clicked the green button');
 });
 
-$('.simon-button.blue').on('click', function() {
-  alert('You clicked the blue button');
+redButton.addEventListener('click', function () {
+  alert('You clicked the red button');
 });
 
-$('.simon-button.yellow').on('click', function() {
+yellowButton.addEventListener('click', function () {
   alert('You clicked the yellow button');
 });
 
-$('.simon-button.red').on('click', function() {
-  alert('You clicked the red button');
+blueButton.addEventListener('click', function () {
+  alert('You clicked the blue button');
 });
