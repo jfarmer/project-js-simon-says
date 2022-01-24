@@ -11,7 +11,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
     "jsdoc": "^3.6.7",
-    "surge": "^0.23.0"
+    "surge": "^0.23.1"
   },
   "scripts": {
     "docs": "npx jsdoc -c ./.jsdoc.conf.json",
